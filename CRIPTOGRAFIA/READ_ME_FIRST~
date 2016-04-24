@@ -1,0 +1,19 @@
+Para um desenvolvimento mais dinâmico e simples de todo trabalho prático resolvemos manter somente um demonstrativo do
+funcionamento das funções de criptografia e de como seria aplicada, logo, criamos uma versão simplificada da função de 
+adicionar clientes ao sistema, impondo unicamente a regra basica de que não pode-se existir dois usuarios com o mesmo 
+login. Dito isso, devo ressaltar precauções informações a serem consideradas ao aventurar-se pelo programa:
+
+A: As funções tem um limite não imposto  devido a sua alta taxa de variabilidade, contanto que o numero de caracteres usados 
+não exceda 16 não haverá o minimo risco de problemas.
+
+B: Para compreender melhor o funcionamento do código pode-se descomentar a linha "#define DEBUG".
+
+C: Devido a logica do programa, é necessário manter o arquivo "clientlogins" ocupado com pelo menos duas linhas de informações 
+encriptadas para que não ocorram erros no uso do programa. Entre as chaves a baixo tem-se um exemplo.
+
+{
+65707200 156 -50699
+65707200 156 -50699
+}
+
+Informações e avisos dados, só me resta deseja um bom uso e boas férias que logo começarão.
